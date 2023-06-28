@@ -3,8 +3,10 @@
     color: --iris, #4D5AE5;
     color: --ocean#404BBF;
     color: --white#FFF;
-    background-color:--cloud, #F4F4FD;
+    color:--slate, #434455;
+    background-color: --cloud, #F4F4FD;
 }
+
 body{
     font-family: Roboto, sans-serif;
     color: #434455;
@@ -27,12 +29,10 @@ color: var(--iris, #4D5AE5);
     text-transform: uppercase;
 }
 
-.menu-accent {
-    color: var(--navyblue #2E2F42);
+span {
+    color: var(--navyblue #2E2F42);}
 
-}
-
-.menu-list-link {
+.menu-list-item {
     color: var(--navyblue #2E2F42);
         justify-content: center;
             font-size: 16px;
@@ -42,22 +42,22 @@ color: var(--iris, #4D5AE5);
 }
 .menu-list-link:hover,
 .menu-list-link:focus,
-.menu-list-link:active {
-    color: var(--ocean#404BBF);
+.menu-list-link:active{
+    color: #404bbf;
 }
 
 address{
     font-style: normal;
 }
 .menu-contacts-link {
+    color: var(--slate, #434455);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 .menu-contacts-link:hover,
-.menu-contacts-link:focus,
-.menu-contacts-link:active {
-    color: var(--ocean#404BBF);
+.menu-contacts-link:focus{
+    color: #404bbf;
 }
 .footer {
 background-color: var(--navyblue, #2E2F42);
@@ -106,9 +106,9 @@ font-family: inherit;
     cursor: pointer;
 
 }
-.main-btn:hover
+.main-btn:hover,
 .main-btn:focus {
-    background-color: var(--ocean, #404BBF);
+    background-color: #404BBF;
 }
 
 .list-title {
@@ -158,7 +158,9 @@ color: var(--navyblue, #2E2F42);
         line-height: 1.2;
         letter-spacing: 0.02em;
 }
-
+.team-list-item{
+    background-color: #FFFFFF
+}
 .team-list-text {
         text-align: center;
         font-size: 16px;
@@ -169,6 +171,37 @@ color: var(--navyblue, #2E2F42);
 
 
 /*-------------------Portfolio--------------*/
+.logo-portfolio{
+color: var(--navyblue #2E2F42);
+}
+.menu-to-item {
+    color: var(--navyblue #2E2F42);
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+    .menu-to-link:hover,
+    .menu-to-link:focus,
+    .menu-to-link:active {
+color: #404bbf;
+    }
+.contacts{
+font-style: normal
+}
+.contacts-link-to {
+        color: var(--slate, #434455);
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+    }
+
+    .contacts-link-to:hover,
+    .contacts-link-to:focus {
+        color: #404bbf;
+    }
+
 .gallery-item-btn {
     background-color: var(--cloud, #F4F4FD);
     color: var(--iris, #4D5AE5);
