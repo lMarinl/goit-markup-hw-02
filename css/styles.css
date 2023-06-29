@@ -1,8 +1,6 @@
 :root{
     color: --navyblue #2E2F42;
     color: --iris, #4D5AE5;
-    
-    
     color: --white#FFF;
     color:--slate, #434455;
     background-color: --cloud, #F4F4FD;
@@ -31,10 +29,10 @@ color: var(--iris, #4D5AE5);
 }
 
 .logo-studio {
-    color: var(--navyblue #2E2F42);}
+    color: var(--navyblue #2E2F42);
+}
 
-        menu-list-item
-.menu-list-item {
+.menu-list-link {
     color: var(--navyblue #2E2F42);
         justify-content: center;
             font-size: 16px;
@@ -171,12 +169,12 @@ color: var(--navyblue, #2E2F42);
 }
 
 
-
 /*-------------------Portfolio--------------*/
-.logo-portfolio{
-color: var(--navyblue #2E2F42);
+
+.logo-portfolio {
+    color: var(--navyblue #2E2F42);
 }
-.menu-to-item {
+.menu-to-link {
     color: var(--navyblue #2E2F42);
     justify-content: center;
     font-size: 16px;
@@ -185,19 +183,21 @@ color: var(--navyblue #2E2F42);
     letter-spacing: 0.02em;
 }
     .menu-to-link:hover,
-    .menu-to-link:focus,
-    .menu-to-link:active {
+    .menu-to-link:focus {
 color: #404bbf;
     }
 .contacts{
-font-style: normal
+font-style: normal;
 }
 .contacts-link-to {
-        color: var(--slate, #434455);
+        color:var(--slate);
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
     }
+.contacts-list-to {
+    list-style: none;
+}
 
     .contacts-link-to:hover,
     .contacts-link-to:focus {
@@ -232,6 +232,7 @@ font-style: normal
 }
 
 .galery-list-text {
+    color:var(--slate, #434455);
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
