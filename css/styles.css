@@ -1,7 +1,7 @@
 :root{
-    color: --navyblue #2E2F42;
+    color: --navyblue, #2E2F42;
     color: --iris, #4D5AE5;
-    color: --white#FFF;
+    color: --white, #FFFFFF;
     color:--slate, #434455;
     background-color: --cloud, #F4F4FD;
 }
@@ -19,7 +19,7 @@ list-style-type: none;
 }
 
 .menu-logo {
-color: var(--iris, #4D5AE5);
+color: var(--iris,#4D5AE5);
     font-size: 18px;
     font-family: Raleway, sans-serif;
     font-weight: 800;
@@ -29,7 +29,7 @@ color: var(--iris, #4D5AE5);
 }
 
 .logo-studio {
-    color: var(--navyblue #2E2F42);
+    color: var(--navyblue,#2E2F42);
 }
 
 .menu-list-link {
@@ -46,7 +46,7 @@ color: var(--iris, #4D5AE5);
     color: #404bbf;
 }
 
-address{
+.menu-contacts{
     font-style: normal;
 }
 .menu-contacts-link {
@@ -60,7 +60,7 @@ address{
     color: #404bbf;
 }
 .footer {
-background-color: var(--navyblue, #2E2F42);
+background-color: var(--navyblue,#2E2F42);
 }
 .footer-logo {
     color: var(--iris, #4D5AE5);
@@ -84,7 +84,7 @@ background-color: var(--navyblue, #2E2F42);
 }
 
 .main-section{
-    background-color: var(--navyblue, #2E2F42);
+    background-color: var(--navyblue,#2E2F42);
 }
 .main-title {
 color: var(--white, #FFF);
@@ -112,7 +112,7 @@ font-family: inherit;
 }
 
 .list-title {
-    color: var(--navyblue, #2E2F42);
+    color: var(--navyblue,#2E2F42);
         font-size: 20px;
         font-weight: 500;
         line-height: 1.2;
@@ -127,7 +127,7 @@ font-family: inherit;
 }
 
 .doing-title{
-color: var(--navyblue, #2E2F42);
+color: var(--navyblue,#2E2F42);
     text-align: center;
     font-size: 36px;
     font-weight: 700;
@@ -190,7 +190,7 @@ color: #404bbf;
 font-style: normal;
 }
 .contacts-link-to {
-        color:var(--slate);
+        color: var(--navyblue #2E2F42);
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
