@@ -33,7 +33,7 @@ color: var(--iris,#4D5AE5);
 }
 
 .menu-list-link {
-    color: var(--navyblue,#2E2F42);
+    color: var(--navyblue, #2E2F42);
         justify-content: center;
             font-size: 16px;
             font-weight: 500;
@@ -172,10 +172,10 @@ color: var(--navyblue,#2E2F42);
 /*-------------------Portfolio--------------*/
 
 .logo-portfolio {
-    color: var(--navyblue,#2E2F42);
+    color: var(--navyblue, #2E2F42);
 }
 .menu-to-link {
-    color: var(--navyblue,#2E2F42);
+    color: var(--navyblue, #2E2F42);
     justify-content: center;
     font-size: 16px;
     font-weight: 500;
@@ -190,7 +190,7 @@ color: #404bbf;
 font-style: normal;
 }
 .contacts-link-to {
-    color: var(--slate,#434455);
+    color: var(--slate, #434455);
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
