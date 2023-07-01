@@ -45,6 +45,7 @@ body{
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
+
 .main-link:hover,
 .main-link:focus,
 .main-link:active{
@@ -132,7 +133,7 @@ background-color: var(--ocean);
 
 /*-----section4-----*/
 .team {
-    border-color: var(--cloud);
+    background-color: var(--cloud);
 }
 
 .team-title {
@@ -147,7 +148,7 @@ text-align: center;
 
 .team-list-title{
     color: var(--navy-blue);
-text-align: center;
+    text-align: center;
     font-size: 20px;
     font-weight: 500;
     line-height: 24px;
@@ -170,9 +171,8 @@ text-align: center;
 .footer-link-logo{
     color: var(--iris);
     justify-content: center;
-    font-family: "Releway", sans-serif;
+    font-family: "Raleway", sans-serif;
         font-size: 18px;
-        font-style: normal;
         font-weight: 800;
         line-height: 1.17;
         letter-spacing: 0.03em;
@@ -197,14 +197,14 @@ text-align: center;
 /*-----Header-----*/
 
 .portfolio-link-logo {
-        color: var(--iris);
-            font-family: Raleway, sans-serif;
-            font-style: normal;
-            font-size: 18px;
-            font-weight: 800;
-            line-height: 1.17;
-            letter-spacing: 0.03em;
-            text-transform: uppercase;
+    color: var(--iris);
+        font-family: Raleway, sans-serif;
+        font-style: normal;
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
 }
 
 .portfolio-accent {
@@ -212,11 +212,11 @@ text-align: center;
 }
 
 .portfolio-link {
-        color: var(--navy-blue);
-            font-size: 16px;
-            font-weight: 500;
-            line-height: 1.5;
-            letter-spacing: 0.02em;
+    color: var(--navy-blue);
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
 }
 
 .portfolio-link:hover,
@@ -230,11 +230,11 @@ text-align: center;
 }
 
 .portfolio-contacts-link {
-        color: var(--slate);
-            font-size: 16px;
-            font-weight: 400;
-            line-height: 1.5;
-            letter-spacing: 0.02em;
+    color: var(--slate);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
 }
 
 .portfolio-contacts-link:hover,
@@ -286,15 +286,14 @@ text-align: center;
 }
 
 .pf-link-logo {
-            color: var(--iris);
-                justify-content: center;
-                font-family: "Releway", sans-serif;
-                font-size: 18px;
-                font-style: normal;
-                font-weight: 800;
-                line-height: 1.17;
-                letter-spacing: 0.03em;
-                text-transform: uppercase;
+    color: var(--iris);
+        justify-content: center;
+        font-family: "Raleway", sans-serif;
+        font-size: 18px;
+        font-weight: 800;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
 }
 
 .pf-logo-accent {
@@ -302,9 +301,9 @@ text-align: center;
 }
 
 .pf-text {
-        color: var(--cloud);
-            font-size: 16px;
-            font-weight: 400;
-            line-height: 1.5;
-            letter-spacing: 0.02em;
+    color: var(--cloud);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
 }
