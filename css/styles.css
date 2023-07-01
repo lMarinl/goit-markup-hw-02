@@ -133,7 +133,7 @@ background-color: var(--ocean);
 
 /*-----section4-----*/
 .team {
-    background-color: var(--cloud);
+    background-color: #F4F4FD;
 }
 
 .team-title {
@@ -154,6 +154,9 @@ text-align: center;
     line-height: 24px;
     letter-spacing: 0.4px;
 }
+.team-item{
+    background-color: #FFFFFF;
+}
 
 .team-text{
     text-align: center;
@@ -171,7 +174,7 @@ text-align: center;
 .footer-link-logo{
     color: var(--iris);
     justify-content: center;
-    font-family: "Raleway", sans-serif;
+    font-family: Raleway, sans-serif;
         font-size: 18px;
         font-weight: 800;
         line-height: 1.17;
@@ -208,7 +211,7 @@ text-align: center;
 }
 
 .portfolio-accent {
-        color: var(--navy-blue);
+    color: var(--navy-blue);
 }
 
 .portfolio-link {
@@ -288,7 +291,7 @@ text-align: center;
 .pf-link-logo {
     color: var(--iris);
         justify-content: center;
-        font-family: "Raleway", sans-serif;
+        font-family: Raleway, sans-serif;
         font-size: 18px;
         font-weight: 800;
         line-height: 1.17;
