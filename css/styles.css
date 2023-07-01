@@ -125,14 +125,14 @@ background-color: var(--ocean);
     text-align: center;
     font-size: 36px;
         font-weight: 700;
-        line-height: 1.1;
+        line-height: 1.11;
         letter-spacing: 0.02em;
         text-transform: capitalize;
 }
 
 /*-----section4-----*/
 .team-item {
-    background-color: var(--white);
+    background-color:#FFFFFF;
 }
 
 .team-title {
@@ -166,6 +166,7 @@ text-align: center;
 .footer {
     background-color: var(--navy-blue);
 }
+
 .footer-link-logo{
     color: var(--iris);
     justify-content: center;
@@ -183,6 +184,7 @@ text-align: center;
     color: var(--cloud);
     
 }
+
 .footer-text {
     color: var(--cloud);
     font-size: 16px;
@@ -247,7 +249,7 @@ text-align: center;
 .menu-list {}
 
 .menu-btn {
-    background-color: var(--cloud) ;
+    background-color: var(--cloud);
     color: var(--iris);
     text-align: center;
         font-size: 16px;
@@ -285,16 +287,16 @@ text-align: center;
 }
 
 .pf-link-logo {
-    color: var(--iris);
-        justify-content: center;
-        font-family: "Raleway", sans-serif;
-        font-size: 18px;
-        font-family: Raleway;
-        font-style: normal;
-        font-weight: 800;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
+            color: var(--iris);
+                justify-content: center;
+                font-family: "Raleway", sans-serif;
+                font-size: 18px;
+                font-family: Raleway;
+                font-style: normal;
+                font-weight: 800;
+                line-height: 1.17;
+                letter-spacing: 0.03em;
+                text-transform: uppercase;
 }
 
 .pf-logo-accent {
