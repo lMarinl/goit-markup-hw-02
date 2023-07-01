@@ -131,8 +131,8 @@ background-color: var(--ocean);
 }
 
 /*-----section4-----*/
-.team {
-    background-color: var(--cloud);
+.team-item {
+    background-color: var(--white);
 }
 
 .team-title {
@@ -140,7 +140,7 @@ color: var(--navy-blue);
 text-align: center;
     font-size: 36px;;
     font-weight: 700;
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
@@ -167,19 +167,20 @@ text-align: center;
     background-color: var(--navy-blue);
 }
 .footer-link-logo{
-    color: var(--cloud);
+    color: var(--iris);
     justify-content: center;
+    font-family: "Raleway", sans-serif;
         font-size: 18px;
         font-family: Raleway;
         font-style: normal;
         font-weight: 800;
-        line-height: 1.7;
+        line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
 }
 
 .footer-logo-accent{
-    color: var(--iris);
+    color: var(--cloud);
     
 }
 .footer-text {
@@ -246,7 +247,7 @@ text-align: center;
 .menu-list {}
 
 .menu-btn {
-    background-color: var(--cornflower) ;
+    background-color: var(--cloud) ;
     color: var(--iris);
     text-align: center;
         font-size: 16px;
@@ -284,19 +285,20 @@ text-align: center;
 }
 
 .pf-link-logo {
-        color: var(--cloud);
-            justify-content: center;
-            font-size: 18px;
-            font-family: Raleway;
-            font-style: normal;
-            font-weight: 800;
-            line-height: 1.7;
-            letter-spacing: 0.03em;
-            text-transform: uppercase;
+    color: var(--iris);
+        justify-content: center;
+        font-family: "Raleway", sans-serif;
+        font-size: 18px;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
 }
 
 .pf-logo-accent {
-    color: var(--iris);
+    color: var(--cloud);
 }
 
 .pf-text {
